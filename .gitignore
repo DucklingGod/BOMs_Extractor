@@ -1,0 +1,62 @@
+# Byte-compiled / cache / temp files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# Environment files
+.env
+.venv/
+venv/
+ENV/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Python virtual environment
+*.egg-info/
+.eggs/
+
+# Model and large data files
+*.onnx
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.h5
+*.ckpt
+*.pb
+*.tflite
+*.weights
+*.log
+
+# Excel and output files
+*.xlsx
+*.xls
+*.csv
+
+# PDF and image outputs
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.gif
+
+# Misc
+*.bak
+*.tmp
+*.swp
+
+# Ignore synthetic data and training outputs
+bom_ner_model/
+bom_ner_model_roberta/
+
+# Ignore test outputs
+output/
